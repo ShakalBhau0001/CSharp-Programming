@@ -15,6 +15,7 @@ namespace FibonacciSeries
                 a = b;
                 b = c;
             }
+            Console.ReadLine();
         }
     }
 }
