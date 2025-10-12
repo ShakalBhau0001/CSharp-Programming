@@ -1,5 +1,6 @@
 namespace SingleInheritance
 {
+    
     internal class A
     {
         public void show()
@@ -7,6 +8,7 @@ namespace SingleInheritance
             Console.WriteLine("I AM Class A...");
         }
     }
+    
     internal class B : A
     {
         public void display()
@@ -14,6 +16,7 @@ namespace SingleInheritance
             Console.WriteLine("I AM Derived Class B...");
         }
     }
+    
     internal class Program
     {
         static void Main(string[] args)
