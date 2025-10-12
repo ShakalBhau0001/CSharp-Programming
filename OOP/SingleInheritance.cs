@@ -5,7 +5,7 @@ namespace SingleInheritance
     {
         public void show()
         {
-            Console.WriteLine("I AM Class A...");
+            Console.WriteLine(" I AM Main Class A ");
         }
     }
     
@@ -13,7 +13,7 @@ namespace SingleInheritance
     {
         public void display()
         {
-            Console.WriteLine("I AM Derived Class B...");
+            Console.WriteLine(" I AM Derived Class B From A ");
         }
     }
     
@@ -21,7 +21,7 @@ namespace SingleInheritance
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Single Inheritance:- ");
+            Console.WriteLine(" Single Inheritance:- ");
             B a = new B();
             a.show();
             a.display();
