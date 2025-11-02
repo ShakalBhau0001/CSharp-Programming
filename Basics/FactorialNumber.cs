@@ -7,7 +7,7 @@ namespace FactorialNumber
             Console.Write("Enter a number: ");
             int num = Convert.ToInt32(Console.ReadLine());
             int fact = 1;
-            for (int i = 1; i <= n; i++)
+            for (int i = 1; i <= num; i++)
             {
                 fact *= i;
             }
